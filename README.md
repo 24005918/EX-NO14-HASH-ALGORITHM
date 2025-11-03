@@ -27,6 +27,7 @@ To implement HASH ALGORITHM
 
 
 ## Program:
+```
 #include <stdio.h>
  #include <string.h>
  void computeSimpleHash(const char *message, unsigned char *hash)
@@ -62,6 +63,7 @@ for (int i = 0; message[i] != '\0'; i++)
  }
  return 0;
  }
+```
 
 ## Output:
 <img width="1637" height="952" alt="image" src="https://github.com/user-attachments/assets/8f172de8-7081-4b11-9528-fa861e1312ca" />
